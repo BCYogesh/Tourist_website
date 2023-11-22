@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./travel_site_img/banner1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.login-btn {
+   width: 100px;
+   padding: 8px;
+   border: 2px solid#fff;
+   border-radius: 20px;
+   background-color: transparent;
+   color: #fff;
+   float: right;
+}
+
+.logo {
+    width: 130px;
+    float: left ;
+}
+
+.text-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+ #form {
+    position: relative;
+
+} 
+
+.input-group {
+    background-color: #fff;
+    border-radius: 30px;
+    min-width: 450px;
+    
+}
+
+
+.form-control {
+    padding: 10px !important;
+    border-radius: 30px !important;
+    border: 0 !important;
+    box-shadow: none !important;
+   
+}
+.search-btn {
+    border-radius: 30px !important;
+    border: 2px solid #fff;
+    color: #fff;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    padding: 0 20px ;
+}
+
+.feature-img img {
+    width: 100%;
+
+}
+.price {
+    width: 50px;
+    height: 50px;
+    background-color: #ff5722;
+    border-radius: 50%;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+}
+.feature-img {
+    position: relative;
+}
+.rating {
+    padding: 3px;
+    float: right;
+    background: #fff;
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+}
+.feature-details {
+    padding: 20px;
+    text-align: justify;
+
+}
+.rating i {
+    font-size: 15px;
+    color: #ff5722;
+}
+.stay-details i
+{
+    margin-right: 5px;
+    color: #ff5722;
+}
+.stay-details span{
+    margin-right: 5px;
+}
+.feature-details h4 {
+    font-weight: 600;
+    margin-top: 20px;
+}
+.feature-box {
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+}
+
+.gallery-box img{
+    width: 100%;
+}
+
+
+.gallery-box {
+    position: relative;
+    overflow: hidden;
+    /* padding: 18px !important; */
+    margin-top: 15px;
+}
+.gallery-box img{
+    height: 100%;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-box:hover img {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.gallery-box h3 {
+    display: block;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform : translate(-50%,-50%);
+    user-select: none;
+}
+.booking {
+    height: 80vh;
+    width: 100%;
+    background-image: url(./travel_site_img/banner2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 8%;
+}
+.book-btn button {
+    height: 40px;
+    overflow: hidden;
+}
+
+.booking-details {
+    padding: 70px 0;
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+    
+}
+.testimonal-items {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    padding: 20px;
+}
+.user-info {
+    padding: 25px;
+}
+.user-info img {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid blue;
+}
+.footer {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#2d557d,#9610fb);
+    padding: 70px 20px;
+    margin-top: 120px !important;
+}
+.footer img {
+    width: 150px;
+}
+.footer p {
+    text-align: justify; 
+}
+
+.features-list a{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 10px !important;
+    display: block;
+}
+
+.features-list a::before {
+    content: ">";
+    font-size: 20px;
+    margin-right: 10px;
+}
+.contact-list  i,
+.contact-list p,
+.follow-list i ,
+.follow-list p{
+    color: #fff;
+    margin-right: 10px;
+
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #fff;
+}
